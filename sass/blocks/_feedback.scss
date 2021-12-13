@@ -1,0 +1,28 @@
+.feed {
+    padding: 0 0 50px 0;
+	&__item {
+        display: flex;
+        margin-top: 60px;
+	}
+    &__photo{
+        height: 170px;
+        width: 170px;
+        margin-right: 60px;
+    }
+}
+
+.feed-content {
+    &__name {
+        font-weight: 900;
+        font-size: 18px;
+        // color: #0D0D0D;
+    }
+
+    &__marafon {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+        margin-bottom: 10px;
+    }
+}
